@@ -1,0 +1,11 @@
+
+<div style="margin: 5vh;padding: 5vh; border: 2px solid gray;">
+    <h1>Sign In Page</h1>
+    <input type="email" name="email" placeholder="Enter Your Email" [(ngModel)]="user.email">
+    <input type="password" name="password" placeholder="Enter the Password" [(ngModel)]="user.password">
+    <button (click)="loginUser()">Login</button>
+    <div style="display: flex; gap: 5vh;margin-top: 4vh;">
+        <a [routerLink]='["/"]'>Home</a>
+        <a [routerLink]="['/register']">Sign Up</a>
+    </div>
+</div>

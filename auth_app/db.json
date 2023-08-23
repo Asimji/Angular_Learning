@@ -1,0 +1,19 @@
+{
+  "user": [
+    {
+      "email": "asim@gmail.com",
+      "password": "hello123",
+      "id": 1
+    },
+    {
+      "email": "shbz@gmail.com",
+      "password": "hello123",
+      "id": 2
+    },
+    {
+      "email": "vivek@gmail.com",
+      "password": "hello123",
+      "id": 3
+    }
+  ]
+}
